@@ -25,7 +25,7 @@ export default function NetherConverter() {
           label="X Coordinate"
           type="number"
           placeholder="Your X Coordinate"
-          value={coords.x}
+          defaultValue={coords.x}
           onChange={(e) =>
             setCoords((prev) => ({
               ...prev,
@@ -37,7 +37,7 @@ export default function NetherConverter() {
           label="Y Coordinate"
           type="number"
           placeholder="Your X Coordinate"
-          value={coords.y}
+          defaultValue={coords.y}
           onChange={(e) =>
             setCoords((prev) => ({
               ...prev,
@@ -49,7 +49,7 @@ export default function NetherConverter() {
           label="Z Coordinate"
           type="number"
           placeholder="Your X Coordinate"
-          value={coords.z}
+          defaultValue={coords.z}
           onChange={(e) =>
             setCoords((prev) => ({
               ...prev,
